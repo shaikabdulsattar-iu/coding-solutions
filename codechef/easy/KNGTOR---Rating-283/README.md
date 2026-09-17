@@ -54,7 +54,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T06:21:35.352Z  
+**Submitted:** 2026-09-17T06:21:56.389Z  
 
 ```c_cpp
 #include <stdio.h>
@@ -66,8 +66,6 @@ int main() {
     while (t--) {
         int n, m;
         scanf("%d %d", &n, &m);
-        
-        // Calculate total capacity
         int total_people = (5 * n) + (7 * m);
         
         printf("%d\n", total_people);
