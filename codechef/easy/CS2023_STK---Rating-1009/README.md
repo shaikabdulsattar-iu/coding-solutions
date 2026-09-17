@@ -66,7 +66,7 @@ Om
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T06:20:18.724Z  
+**Submitted:** 2026-09-17T06:20:32.296Z  
 
 ```py
 def max_streak(arr):
