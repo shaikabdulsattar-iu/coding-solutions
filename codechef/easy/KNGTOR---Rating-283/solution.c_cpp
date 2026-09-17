@@ -7,8 +7,6 @@ int main() {
     while (t--) {
         int n, m;
         scanf("%d %d", &n, &m);
-        
-        // Calculate total capacity
         int total_people = (5 * n) + (7 * m);
         
         printf("%d\n", total_people);
