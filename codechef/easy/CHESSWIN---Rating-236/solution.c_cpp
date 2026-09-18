@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int A, B;
+    // Read the current scores
+    if (scanf("%d %d", &A, &B) == 2) {
+        // Calculate the minimum number of matches to play
+        int ans = B - A + 1;
+        // Print the result
+        printf("%d\n", ans);
+    }
+    
+    return 0;
+}
+
