@@ -62,15 +62,15 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ## Solution
 
 **Language:** Python  
-**Runtime:** 1 ms (beats 56.78%)  
-**Memory:** 20.6 MB (beats 17.63%)  
-**Submitted:** 2026-09-18T05:56:54.963Z  
+**Runtime:** 0 ms  
+**Memory:** 19.3 MB  
+**Submitted:** 2026-09-18T05:57:25.771Z  
 
 ```py
 class Solution:
     def removeDuplicates(self, nums: list[int]) -> int:
-        nums[:] = sorted(set(nums))
-        return len(nums)
+        n = set(nums)
+        return len(sorted(n))
 ```
 
 ---
