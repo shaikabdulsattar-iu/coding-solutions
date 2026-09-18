@@ -1,4 +1,4 @@
-# Palindrome Number
+# Q3. Palindrome Number
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
 
@@ -48,9 +48,9 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 6 ms (beats 68.31%)  
-**Memory:** 19.3 MB (beats 55.11%)  
-**Submitted:** 2026-09-18T04:48:43.155Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.2 MB (beats 55.11%)  
+**Submitted:** 2026-09-18T06:00:38.617Z  
 
 ```py
 class Solution:
