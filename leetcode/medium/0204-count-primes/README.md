@@ -42,29 +42,22 @@ Output: 0
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.3 MB  
-**Submitted:** 2026-09-18T12:21:01.607Z  
+**Runtime:** 2973 ms (beats 48.44%)  
+**Memory:** 108.6 MB (beats 11.35%)  
+**Submitted:** 2026-09-18T12:22:36.649Z  
 
 ```py
 class Solution:
     def countPrimes(self, n: int) -> int:
-        if n < 2:
+        if n <= 2:
             return 0
-
-        def is_prime(x: int) -> bool:
-            for i in range(2, int(x**0.5) + 1):
-                if x % i == 0:
-                    return False
-            return True
-
-        count = 0
-        for x in range(2, n):
-            if is_prime(x):
-                count += 1
-
-        return count
-
+        is_prime = [True] * n
+        is_prime[0] = is_prime[1] = False
+        for p in range(2, int(n**0.5) + 1):
+            if is_prime[p]:
+                is_prime[p * p : n : p] = [False] * len(range(p * p, n, p))
+                
+        return sum(is_prime)
 
         
 ```
