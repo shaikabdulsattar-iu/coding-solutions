@@ -5,7 +5,7 @@ c = 0
 for i in l1:
     if i % 2 == 0:
         c += 1
-if c == n :
+if c > n :
     print("ready for battle")
 else:
     print("not ready")
