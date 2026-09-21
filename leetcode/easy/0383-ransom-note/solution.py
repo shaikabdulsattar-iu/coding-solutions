@@ -1,0 +1,7 @@
+class Solution:
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        if sorted(ransomNote) in sorted(magazine):
+            return True
+        else:
+            return False    
+        
