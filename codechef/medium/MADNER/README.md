@@ -73,16 +73,11 @@ xyyyx
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T15:57:42.363Z  
+**Submitted:** 2026-09-21T16:00:05.806Z  
 
 ```py
 class Solution:
     def findMaximumPairs(self, students: str) -> int:
-        c = 0
-        if 'xy' or 'yx' in students:
-            c += 1
-        return c        
-        # write your code here
         
 ```
 
