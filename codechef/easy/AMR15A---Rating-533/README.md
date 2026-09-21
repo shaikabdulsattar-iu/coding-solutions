@@ -118,7 +118,7 @@ NOT READY
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T02:04:01.982Z  
+**Submitted:** 2026-09-21T02:04:10.237Z  
 
 ```py
 # cook your dish here
@@ -128,7 +128,7 @@ c = 0
 for i in l1:
     if i % 2 == 0:
         c += 1
-if c == n :
+if c > n :
     print("ready for battle")
 else:
     print("not ready")
