@@ -65,7 +65,7 @@ It contains two `0`s and two `1`s, so the entire string becomes balanced. Theref
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T16:02:31.805Z  
+**Submitted:** 2026-09-21T16:02:47.791Z  
 
 ```py
 # cook your dish here
