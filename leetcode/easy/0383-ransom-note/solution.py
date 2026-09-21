@@ -1,7 +1,7 @@
+from collections import Counter
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        if sorted(ransomNote) in sorted(magazine):
-            return True
-        else:
-            return False    
+        note_count = Counter(ransomNote)
+        mag_count = Counter(magazine)
+        return note_count <= mag_count
         
