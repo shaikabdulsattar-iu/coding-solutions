@@ -44,17 +44,17 @@ Output: true
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.1 MB  
-**Submitted:** 2026-09-21T10:04:43.544Z  
+**Runtime:** 15 ms (beats 78.51%)  
+**Memory:** 19.7 MB (beats 35.18%)  
+**Submitted:** 2026-09-21T10:06:13.915Z  
 
 ```py
+from collections import Counter
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        if sorted(ransomNote) in sorted(magazine):
-            return True
-        else:
-            return False    
+        note_count = Counter(ransomNote)
+        mag_count = Counter(magazine)
+        return note_count <= mag_count
         
 ```
 
