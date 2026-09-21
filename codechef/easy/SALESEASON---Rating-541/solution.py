@@ -1,8 +1,10 @@
-# cook your dish here
-n = int(input())
-for i in range(n):
-    a = int(input())
-    if a < 250:
-        print(a)
-    else:
-        print(a - 25)
+T = int(input())
+for _ in range(T):
+    X = int(input())
+    if X > 5000:
+        X -= 500
+    elif X > 1000:
+        X -= 100
+    elif X > 100:
+        X -= 25
+    print(X)
