@@ -47,9 +47,9 @@ Output: true
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.4 MB  
-**Submitted:** 2026-09-22T12:06:28.162Z  
+**Runtime:** 3 ms (beats 12.72%)  
+**Memory:** 19.3 MB (beats 60.05%)  
+**Submitted:** 2026-09-22T12:06:34.212Z  
 
 ```py
 class Solution:
