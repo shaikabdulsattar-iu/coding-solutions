@@ -63,11 +63,16 @@ The second character of `ever` is `v`, while its fourth character is `r`. These 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:15:37.003Z  
+**Submitted:** 2026-09-23T15:16:57.123Z  
 
 ```py
 # cook your dish here
-
+s = input()
+l1 = list(s)
+if s[0] == s[2] and s[1] == s[3]:
+    print("yes")
+else:
+    print("no")
 ```
 
 ---
