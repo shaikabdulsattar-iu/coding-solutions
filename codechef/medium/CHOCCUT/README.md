@@ -54,17 +54,17 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:41:02.610Z  
+**Submitted:** 2026-09-30T15:41:45.326Z  
 
 ```py
 # cook your dish here
 n = int(input())
 for i in range(n):
     a,b = map(int,input().split())
-    if a % 2 == 0 or b % 2 == 0;
-    print("yes")
+    if a % 2 == 0 or b % 2 == 0:
+        print("yes")
     else:
-    print("no")
+        print("no")
 ```
 
 ---
