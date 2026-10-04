@@ -52,18 +52,14 @@ Output: [0,1]
 ## Solution
 
 **Language:** Python  
-**Runtime:** 6 ms (beats 76.99%)  
-**Memory:** 22.5 MB (beats 75.82%)  
-**Submitted:** 2026-10-04T16:06:27.947Z  
+**Runtime:** 5 ms (beats 83.02%)  
+**Memory:** 22.4 MB (beats 75.82%)  
+**Submitted:** 2026-10-04T16:08:41.120Z  
 
 ```py
 class Solution:
-    def grayCode(self, n: int) -> List[int]:
-        size = 1 << n  # 2^n
-class Solution:
-    def grayCode(self, n: int) -> List[int]:
-        size = 1 << n  # 2^n
-        return [i ^ (i >> 1) for i in range(size)] 
+    def grayCode(self, n: int) -> list[int]:
+        return [i ^ (i >> 1) for i in range(1 << n)]
 ```
 
 ---
