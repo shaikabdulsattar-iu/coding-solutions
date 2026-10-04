@@ -48,24 +48,20 @@ The array has one each of 0, 1, and 2, arranged in-place in the order 0, 1, 2.
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.3 MB (beats 24.39%)  
-**Submitted:** 2026-10-04T02:37:58.493Z  
+**Memory:** 19.4 MB (beats 24.39%)  
+**Submitted:** 2026-10-04T02:38:52.054Z  
 
 ```py
 class Solution:
-    def sortColors(self, nums: list[int]) -> None:
-        low, mid, high = 0, 0, len(nums) - 1
-
-        while mid <= high:
-            if nums[mid] == 0:
-                nums[low], nums[mid] = nums[mid], nums[low]
-                low += 1
-                mid += 1
-            elif nums[mid] == 1:
-                mid += 1
-            else:  # nums[mid] == 2
-                nums[mid], nums[high] = nums[high], nums[mid]
-                high -= 1
+    def sortColors(self, nums: list[int]) -> list[int]:
+        for i in range(len(nums)):
+            for j in range(i+1,len(nums)):
+                if nums[i]>nums[j]:
+                    temp=nums[i]
+                    nums[i]=nums[j]
+                    nums[j]=temp
+        return nums
+        
 ```
 
 ---
