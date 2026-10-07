@@ -62,11 +62,18 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:47:05.431Z  
+**Submitted:** 2026-10-07T16:15:36.449Z  
 
 ```py
 # cook your dish here
-
+n = int(input())
+for i in range(n):
+    a,b = map(int,input())
+    s = input()
+    l = 0
+    r = 0
+    
+    
 ```
 
 ---
