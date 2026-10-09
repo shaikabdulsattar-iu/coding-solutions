@@ -42,9 +42,9 @@ Explanation: There are three ways to climb to the top.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19 MB  
-**Submitted:** 2026-10-09T06:24:10.197Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.4 MB (beats 18.23%)  
+**Submitted:** 2026-10-09T06:24:15.695Z  
 
 ```py
 class Solution:
