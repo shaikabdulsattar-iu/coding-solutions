@@ -47,9 +47,9 @@ Explanation: 1248 is divisible by all of its digits, hence the answer is 4.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.1 MB (beats 89.47%)  
-**Submitted:** 2026-10-09T05:41:48.514Z  
+**Runtime:** 0 ms  
+**Memory:** 19.4 MB  
+**Submitted:** 2026-10-09T05:41:27.457Z  
 
 ```py
 class Solution:
