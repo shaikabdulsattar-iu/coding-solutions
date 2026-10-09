@@ -43,16 +43,22 @@ Explanation: There are three ways to climb to the top.
 
 **Language:** Python  
 **Runtime:** 0 ms  
-**Memory:** 19.2 MB  
-**Submitted:** 2026-10-08T06:29:08.444Z  
+**Memory:** 19 MB  
+**Submitted:** 2026-10-09T06:24:10.197Z  
 
 ```py
 class Solution:
     def climbStairs(self, n: int) -> int:
-        if n == 2 or n == 3 or n == 1:
+        if n <= 3:
             return n
-        return (n*(n+1))//2    
         
+        prev1, prev2 = 3, 2
+        for _ in range(4, n + 1):
+            curr = prev1 + prev2
+            prev2 = prev1
+            prev1 = curr
+            
+        return prev1
 ```
 
 ---
