@@ -53,11 +53,19 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T14:51:13.003Z  
+**Submitted:** 2026-10-14T14:59:19.778Z  
 
 ```py
 # cook your dish here
-
+n = int(input())
+for i in range(n):
+    a = int(input())
+    l1 = list(map(int,input().split()))
+    l1.sort()
+    if n <= 2:
+        print(0)
+    else:
+        print(min(l1[a-1]-l1[1],l1[a-2]-l1[0]))
 ```
 
 ---
