@@ -45,8 +45,8 @@ Explanation: The array ans is formed as follows:
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.3 MB (beats 42.40%)  
-**Submitted:** 2026-09-18T05:15:07.969Z  
+**Memory:** 19.1 MB (beats 89.52%)  
+**Submitted:** 2026-11-04T15:30:01.838Z  
 
 ```py
 class Solution:
